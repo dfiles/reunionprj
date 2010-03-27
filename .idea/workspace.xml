@@ -3,8 +3,6 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/learningrails.css" afterPath="" />
     </list>
     <ignored path="reunion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +26,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="52" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.80792683">
+            <state line="38" column="52" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-21.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chsmain.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="chsmain.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+            <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6167401">
               <folding />
             </state>
           </provider>
@@ -584,7 +582,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated app" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -600,6 +598,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="Updated gitignore file" />
     <MESSAGE value="Updated footer" />
+    <MESSAGE value="updated app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -617,16 +616,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+        <state line="38" column="52" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-21.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="52" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.80792683">
+        <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6167401">
           <folding />
         </state>
       </provider>
