@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
+    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="updated app">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="reunion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chsmain.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="chsmain.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6167401">
+            <state line="26" column="113" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +62,9 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="ideaSsh" value="false" />
     <option name="GIT_EXECUTABLE" value="/usr/local/git/bin/git" />
+    <option name="SSH_EXECUTABLE" value="NATIVE_SSH" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -60,6 +72,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/stylesheets/chsmain.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -625,7 +638,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="109" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6167401">
+        <state line="26" column="113" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
