@@ -16,6 +16,8 @@
   </p>
 
   <p>
+      <b>Parent</b>
+    
     <%= f.collection_select :parent_id, Page.find(:all), :id, :title, :include_blank => true %>
   </p>
    <p>

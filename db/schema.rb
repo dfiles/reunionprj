@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100322214046) do
+ActiveRecord::Schema.define(:version => 20100328035928) do
 
   create_table "categories", :force => true do |t|
     t.string   "title"
@@ -55,6 +55,30 @@ ActiveRecord::Schema.define(:version => 20100322214046) do
     t.boolean  "redirect"
     t.string   "action_name"
     t.string   "controller_name"
+  end
+
+  create_table "profiles", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "current_f_name"
+    t.string   "current_l_name"
+    t.string   "suffix"
+    t.string   "current_prefix"
+    t.string   "email"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "zip4"
+    t.string   "name_suffix"
+    t.string   "marital_status"
+    t.string   "spouse_name"
+    t.string   "mail_status"
+    t.boolean  "priv_flg"
+    t.string   "profile_status"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|
