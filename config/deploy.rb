@@ -9,11 +9,11 @@ default_run_options[:pty] = true
   set :use_sudo, false
   set :keep_releases, 3
   ssh_options[:forward_agent] = true
-
+  set :user, :chs
   set :application, "production"
   set :deploy_to, "/home/chs/site/current/#{application}"
-  set :user, "chs"
-  set :admin_runner, "chs"
+
+  #set :admin_runner, "chs"
 
   role :app, "www.chs1971.com"
   role :web, "www.chs1971.com <http://www.chs1971.com/>"                                                                                                             
