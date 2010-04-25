@@ -5,6 +5,11 @@ default_run_options[:pty] = true
   set :branch, "master"
   set :deploy_via, :remote_cache
 
+# System Options
+  set :use_sudo, false
+  set :keep_releases, 3
+  ssh_options[:forward_agent] = true
+
 set :application, "production"
   set :deploy_to, "/home/chs/site/current/#{application}"
   set :user, "deploy"
