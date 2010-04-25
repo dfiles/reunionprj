@@ -6,7 +6,7 @@ default_run_options[:pty] = true
   set :deploy_via, :remote_cache
 
 # System Options
-  set :use_sudo, false
+  set :use_sudo, true
   set :keep_releases, 3
   ssh_options[:forward_agent] = true
 
