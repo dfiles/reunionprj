@@ -11,7 +11,7 @@ set :application, "production"
   set :admin_runner, "deploy"
 
   role :app, "www.chs1971.com"
-  role :web, "www.chs1971.com <http://www.chs1971.com/>"                                                                                                                deploy:setup
+  role :web, "www.chs1971.com <http://www.chs1971.com/>"                                                                                                             
   role :db,  "www.chs1971.com", :primary => true
 
   namespace :deploy do
