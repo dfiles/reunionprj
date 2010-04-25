@@ -1,6 +1,6 @@
 
 default_run_options[:pty] = true
-  set :repository,  "git://github.com/dfiles/reunionprj.git"
+  set :repository,  "git+ssh://github.com/dfiles/reunionprj.git"
   set :scm, "git"
   set :branch, "master"
   set :deploy_via, :remote_cache
