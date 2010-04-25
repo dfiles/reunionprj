@@ -6,7 +6,7 @@ default_run_options[:pty] = true
   set :deploy_via, :remote_cache
 
 set :application, "production"
-  set :deploy_to, "/home/chs/current/site/#{application}"
+  set :deploy_to, "/home/chs/site/current/#{application}"
   set :user, "deploy"
   set :admin_runner, "deploy"
 
