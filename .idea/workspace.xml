@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
+    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="Corrected the deploy.rb file Updated">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
     </list>
     <ignored path="reunion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +26,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
+            <state line="19" column="131" selection-start="514" selection-end="514" vertical-scroll-proportion="0.44493392">
               <folding />
             </state>
           </provider>
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.log" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/production.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="48" selection-start="111" selection-end="111" vertical-scroll-proportion="0.12334802">
+            <state line="13" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -826,7 +825,7 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="22" width="1900" height="1160" extended-state="0" />
+    <frame x="38" y="41" width="1900" height="1160" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -950,13 +949,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
@@ -966,7 +958,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="111" selection-end="111" vertical-scroll-proportion="0.12334802">
+        <state line="13" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="131" selection-start="514" selection-end="514" vertical-scroll-proportion="0.44493392">
           <folding />
         </state>
       </provider>
