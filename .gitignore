@@ -16,4 +16,3 @@ doc/*.dot
 coverage/*
 *.tmproj
 *.sw?
-#db/*.sqlite3
