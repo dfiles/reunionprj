@@ -21,7 +21,7 @@ default_run_options[:pty] = true
 
   namespace :deploy do
     desc "Restart Application"
-    task :restart, :roles => :app do
+    task :restart, :roles => :app, :except => {:no_release => true}  do
       run "touch #{current_path}/tmp/restart.txt"
     end
     desc "Start Application -- not needed for Passenger"
