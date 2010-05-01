@@ -39,7 +39,7 @@
       <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0927835">
+            <state line="3" column="63" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0927835">
               <folding />
             </state>
           </provider>
@@ -710,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0927835">
+        <state line="3" column="63" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0927835">
           <folding />
         </state>
       </provider>
