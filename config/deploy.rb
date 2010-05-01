@@ -29,4 +29,6 @@ default_run_options[:pty] = true
     desc "#{t} task is a no-op with mod_rails"
     task t, :roles => :app do ; end
   end
-end
+ end
+
+after :deploy, "passenger:restart"
