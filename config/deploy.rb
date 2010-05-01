@@ -11,7 +11,7 @@ default_run_options[:pty] = true
   ssh_options[:forward_agent] = true
   set :user, :chs
   set :application, "production"
-  set :deploy_to, "/home/chs/site/#{application}"
+  set :deploy_to, "/home/chs/site/current/#{application}"
 
   #set :admin_runner, "chs"
 
