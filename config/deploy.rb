@@ -30,5 +30,3 @@ default_run_options[:pty] = true
     task t, :roles => :app do ; end
   end
  end
-
-after :deploy, "passenger:restart"

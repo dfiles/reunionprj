@@ -3,7 +3,6 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="reunion.iws" />
@@ -28,19 +27,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="205" selection-end="210" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/.htaccess.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1302" selection-end="1302" vertical-scroll-proportion="1.3608247">
+            <state line="31" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="0.87628865">
               <folding />
             </state>
           </provider>
@@ -88,8 +78,8 @@
         <option value="$PROJECT_DIR$/db/development.sqlite3" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/public/.htaccess.txt" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -709,16 +699,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="205" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="40" column="53" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.69072163">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess.txt">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1302" selection-end="1302" vertical-scroll-proportion="1.3608247">
+        <state line="31" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="0.87628865">
           <folding />
         </state>
       </provider>
