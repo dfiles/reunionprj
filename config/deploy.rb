@@ -15,6 +15,7 @@ default_run_options[:pty] = true
 
   #set :admin_runner, "chs"
 
+
   role :app, "www.chs1971.com"
   role :web, "www.chs1971.com" 
   role :db,  "www.chs1971.com", :primary => true
