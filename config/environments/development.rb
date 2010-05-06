@@ -18,11 +18,11 @@ config.action_mailer.raise_delivery_errors = false
 
 # set up email server
 
-ActionMailer::Base.delivery_method = :smtp
-ActionMailer::Base.smtp_settings = {
-  :address => 'smtp.gmail.com',
-  :port => "587",
-  :domain => 'localhost.localdomain'
-}
+#ActionMailer::Base.delivery_method = :smtp
+#ActionMailer::Base.smtp_settings = {
+#  :address => 'smtp.gmail.com',
+#  :port => "587",
+#  :domain => 'localhost.localdomain'
+#}
 
-CONTACT_RECIPIENT = 'chsclass1971@gmail.com'
+#CONTACT_RECIPIENT = 'chsclass1971@gmail.com'

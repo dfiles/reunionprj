@@ -39,12 +39,4 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 
-  ActionMailer::Base.smtp_settings = {
-   :address => "smtp.gmail.com",
-   :port => 587,
-   :domain => "gmail.com",
-   :authentication => :login,
-   :user_name => "chsclass1971",
-   :password => "password",
-}
 end
