@@ -20,8 +20,9 @@ config.action_mailer.raise_delivery_errors = false
 
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
-  :address => 'smtp.comcast.net',
-  :domain => 'comcast.net'
+  :address => 'smtp.gmail.com',
+  :port => "587",
+  :domain => 'localhost.localdomain'
 }
 
-CONTACT_RECIPIENT = 'yourname@yourdomain.com'
+CONTACT_RECIPIENT = 'chsclass1971@gmail.com'
