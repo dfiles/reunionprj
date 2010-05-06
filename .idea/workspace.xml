@@ -3,9 +3,8 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="reunion.iws" />
@@ -29,37 +28,46 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="message.text.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/message.text.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="59" selection-start="199" selection-end="199" vertical-scroll-proportion="-5.04">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="50" selection-start="2183" selection-end="2183" vertical-scroll-proportion="1.462555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="profiles_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="84" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
+            <state line="84" column="78" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="84" selection-start="876" selection-end="876" vertical-scroll-proportion="-6.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="33" selection-start="356" selection-end="356" vertical-scroll-proportion="0.40088105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/profiles/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="23" selection-start="1554" selection-end="1582" vertical-scroll-proportion="-14.48">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/profiles/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="46.2">
               <folding />
             </state>
           </provider>
@@ -86,7 +94,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/profiles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/profiles/new.html.erb" />
@@ -95,11 +102,12 @@
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/development.sqlite3" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/public/.htaccess.txt" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/views/profiles/show.html.erb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -910,7 +918,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="47" width="1900" height="1160" extended-state="0" />
+    <frame x="473" y="398" width="1900" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -972,41 +980,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="311" selection-end="311" vertical-scroll-proportion="0.16006097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3876652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contact_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.21646342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1017,13 +990,6 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/messages_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/profiles/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8567073">
           <folding />
         </state>
       </provider>
@@ -1056,30 +1022,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="84" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/message.text.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="59" selection-start="199" selection-end="199" vertical-scroll-proportion="-5.04">
+        <state line="12" column="31" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+        <state line="23" column="80" selection-start="901" selection-end="901" vertical-scroll-proportion="0.7092511">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/message.text.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="50" selection-start="2183" selection-end="2183" vertical-scroll-proportion="1.462555">
+        <state line="6" column="59" selection-start="199" selection-end="199" vertical-scroll-proportion="0.19207317">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="78" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profiles/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="46.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profiles/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="23" selection-start="1554" selection-end="1582" vertical-scroll-proportion="-14.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profiles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="84" selection-start="876" selection-end="876" vertical-scroll-proportion="-6.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="356" selection-end="356" vertical-scroll-proportion="0.40088105">
           <folding />
         </state>
       </provider>
