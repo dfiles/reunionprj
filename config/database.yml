@@ -22,4 +22,4 @@ production:
   username: chs
   password: CCn3A1Eq
   host: localhost
-  socket: /var/run/mysqld/mysqld.sock
+  socket: /var/run/mysqld/mysqld.sock 
