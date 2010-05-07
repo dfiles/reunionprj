@@ -1,7 +1,7 @@
 log/*.log
 tmp/**/*
 .idea/**/*
-# config/database.yml
+config/database.yml
 *~
 *.cache
 *.log
