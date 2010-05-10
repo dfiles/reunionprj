@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/chsmain.css" afterPath="$PROJECT_DIR$/public/stylesheets/chsmain.css" />
+    <list default="true" readonly="true" id="72584ffa-e5ff-4658-b39f-8e4300268614" name="Default" comment="Updated css for body formats">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewer/show.html.erb" afterPath="$PROJECT_DIR$/app/views/viewer/show.html.erb" />
@@ -28,26 +27,7 @@
   </component>
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="chsmain.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="98" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.19823788">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/viewer/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="92" selection-start="302" selection-end="302" vertical-scroll-proportion="-9.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -1043,7 +1023,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="318" width="1900" height="1160" extended-state="0" />
+    <frame x="118" y="188" width="1900" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1077,7 +1057,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated css files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated css for body formats" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1108,6 +1088,7 @@
     <MESSAGE value="renamed css file" />
     <MESSAGE value="Update application page..." />
     <MESSAGE value="Updated css files" />
+    <MESSAGE value="Updated css for body formats" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1196,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="921" selection-end="921" vertical-scroll-proportion="0.2957317">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.48018292">
@@ -1210,16 +1184,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="921" selection-end="921" vertical-scroll-proportion="0.22408536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/viewer/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="92" selection-start="302" selection-end="302" vertical-scroll-proportion="-9.24">
+        <state line="9" column="157" selection-start="233" selection-end="233" vertical-scroll-proportion="0.19207317">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/chsmain.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="98" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.19823788">
+        <state line="101" column="92" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.013215859">
           <folding />
         </state>
       </provider>
