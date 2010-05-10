@@ -9,6 +9,7 @@ body {
     padding: 0;
     border: 1px solid #999;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1e6e6;
 }
 #content {
     padding: 20px 10px;
@@ -86,7 +87,7 @@ body {
 	width: 200px;
 	float: left;
 	border-right: 1px solid black;
-	margin-right: 20px;
+
 }
 #edit {
 	font-size:12px;
@@ -94,7 +95,7 @@ body {
 #subnav {
 	width: 160px;
 	float: left;
-	margin: 0 20px 300px -10px;
+	margin: 0 20px 15px -10px;
 }
 #subnav ul {
     list-style: none;
@@ -118,3 +119,9 @@ body {
     background-color: #333;
     color: #cc0033;
 }
+#subbody {
+	float: left;
+    margin: 0 10px 15px -10px;
+    width:  700px;
+}
+

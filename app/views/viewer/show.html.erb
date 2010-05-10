@@ -5,6 +5,7 @@
         <li><%= link_to page.navlabel, view_page_path(page.name) %></li>
       <% end %>
   </div>
+
 <% elsif @page.parent %>
   <div id='subnav'>
     <ul>
@@ -13,6 +14,7 @@
       </li>
     </ul>
   </div>
+
 <% end %>
 
 <% if logged_in? %>
@@ -23,8 +25,11 @@
 {:rows => 20, :cols => 80, :external_control => 'edit', :external_control_only => true,
  :load_text_url => {:controller => 'viewer', :action => 'get_unformatted_text', :id => @page.id}
 } %>
-<% else %>
 
+    
+<% else %>
+  <div id='subbody'>
 	<%= @page.body %>
+  </div>
 
 <% end %>
