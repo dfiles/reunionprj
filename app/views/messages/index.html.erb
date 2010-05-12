@@ -3,8 +3,6 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Company</th>
-    <th>Phone</th>
     <th>Email</th>
     <th>Subject</th>
     <th>Body</th>
@@ -13,8 +11,6 @@
 <% @messages.each do |message| %>
   <tr>
     <td><%=h message.name %></td>
-    <td><%=h message.company %></td>
-    <td><%=h message.phone %></td>
     <td><%=h message.email %></td>
     <td><%=h message.subject %></td>
     <td><%=h message.body %></td>

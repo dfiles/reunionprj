@@ -1,4 +1,4 @@
-<h1>New message</h1>
+<h1>Email message</h1>
 
 <% form_for(@message) do |f| %>
   <%= f.error_messages %>
@@ -6,14 +6,6 @@
   <p>
     <%= f.label :name %><br />
     <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :company %><br />
-    <%= f.text_field :company %>
-  </p>
-  <p>
-    <%= f.label :phone %><br />
-    <%= f.text_field :phone %>
   </p>
   <p>
     <%= f.label :email %><br />
