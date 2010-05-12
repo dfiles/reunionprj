@@ -64,7 +64,7 @@ body {
     color: White;
     float: left;
     border-right: 1px solid #333;
-    font-family: arial, helvetica, sans-serif;
+    font-family: Arial, helvetica, sans-serif;
 }
 #navbar ul li a {
     padding: 0.2em 0.7em;
@@ -121,8 +121,27 @@ body {
 }
 #subbody {
 	float: left;
-    margin: 0 10px 15px -10px;
-    width:  700px;
+    margin: 0 0px 10px -10px;
+    width:  575px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+    background-color: black;
+}
+
+a:active {
+    color: aqua;
+    background-color: navy;
 }
 
