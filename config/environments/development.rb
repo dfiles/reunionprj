@@ -20,3 +20,4 @@ config.action_controller.perform_caching             = false
 
 # set up email server
 CONTACT_RECIPIENT = 'chsclass1971@gmail.com'
+CONTACT_CC = 'benz601@aol.com,jm_crockett@hotmail.com'
