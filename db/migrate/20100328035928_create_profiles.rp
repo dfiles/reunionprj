@@ -1,0 +1,31 @@
+class CreateProfiles < ActiveRecord::Migration
+  def self.up
+    create_table :profiles do |t|
+      t.string :first_name
+      t.string :last_name
+      t.string :current_f_name
+      t.string :current_l_name
+      t.string :suffix
+      t.string :current_prefix
+      t.string :email
+      t.string :address1
+      t.string :address2
+      t.string :city
+      t.string :state
+      t.string :zip
+      t.string :zip4
+      t.string :name_suffix
+      t.string :marital_status
+      t.string :spouse_name
+      t.string :mail_status
+      t.boolean :priv_flg
+      t.string :profile_status
+
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :profiles
+  end
+end

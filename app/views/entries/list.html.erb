@@ -1,0 +1,9 @@
+<h2>What's New</h2>
+<% for entry in @entries %>
+
+	<h3><%=h entry.title %></h3>
+	<p><%=h entry.body %></p>
+    <p><h5><%=h entry.updated_at.to_formatted_s(:long) %></h5></p>
+	
+ 
+<% end %>

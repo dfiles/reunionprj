@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :entries, :collection => {:list => :get}
+
   map.resources :profiles
 
   map.resources :messages

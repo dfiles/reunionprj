@@ -1,0 +1,88 @@
+<h1>Editing profile</h1>
+
+<% form_for(@profile) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name %>
+  </p>
+  <p>
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name %>
+  </p>
+  <p>
+    <%= f.label :current_f_name %><br />
+    <%= f.text_field :current_f_name %>
+  </p>
+  <p>
+    <%= f.label :current_l_name %><br />
+    <%= f.text_field :current_l_name %>
+  </p>
+  <p>
+    <%= f.label :suffix %><br />
+    <%= f.text_field :suffix %>
+  </p>
+  <p>
+    <%= f.label :current_prefix %><br />
+    <%= f.text_field :current_prefix %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :address1 %><br />
+    <%= f.text_field :address1 %>
+  </p>
+  <p>
+    <%= f.label :address2 %><br />
+    <%= f.text_field :address2 %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :state %><br />
+    <%= f.text_field :state %>
+  </p>
+  <p>
+    <%= f.label :zip %><br />
+    <%= f.text_field :zip %>
+  </p>
+  <p>
+    <%= f.label :zip4 %><br />
+    <%= f.text_field :zip4 %>
+  </p>
+  <p>
+    <%= f.label :name_suffix %><br />
+    <%= f.text_field :name_suffix %>
+  </p>
+  <p>
+    <%= f.label :marital_status %><br />
+    <%= f.text_field :marital_status %>
+  </p>
+  <p>
+    <%= f.label :spouse_name %><br />
+    <%= f.text_field :spouse_name %>
+  </p>
+  <p>
+    <%= f.label :mail_status %><br />
+    <%= f.check_box :mail_status %>
+  </p>
+  <p>
+    <%= f.label :priv_flg %><br />
+    <%= f.check_box :priv_flg %>
+  </p>
+  <p>
+    <%= f.label :profile_status %><br />
+    <%= f.text_field :profile_status %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @profile %> |
+<%= link_to 'Back', profiles_path %>

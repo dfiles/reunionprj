@@ -1,0 +1,93 @@
+<p>
+  <b>First name:</b>
+  <%=h @profile.first_name %>
+</p>
+<p>
+  <b>Last name:</b>
+  <%=h @profile.last_name %>
+</p>
+<p>
+  <b>Current First Name:</b>
+  <%=h @profile.current_f_name %>
+</p>
+<p>
+  <b>Current l name:</b>
+  <%=h @profile.current_l_name %>
+</p>
+<p>
+  <b>Suffix:</b>
+  <%=h @profile.suffix %>
+</p>
+<p>
+  <b>Current prefix:</b>
+  <%=h @profile.current_prefix %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @profile.email %>
+</p>
+
+<p>
+  <b>Address1:</b>
+  <%=h @profile.address1 %>
+</p>
+
+<p>
+  <b>Address2:</b>
+  <%=h @profile.address2 %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @profile.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @profile.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%=h @profile.zip %>
+</p>
+
+<p>
+  <b>Zip4:</b>
+  <%=h @profile.zip4 %>
+</p>
+
+<p>
+  <b>Name suffix:</b>
+  <%=h @profile.name_suffix %>
+</p>
+
+<p>
+  <b>Marital status:</b>
+  <%=h @profile.marital_status %>
+</p>
+
+<p>
+  <b>Spouse name:</b>
+  <%=h @profile.spouse_name %>
+</p>
+
+<p>
+  <b>Mail status:</b>
+  <%=h @profile.mail_status  ? "TRUE" : "FALSE" %>
+</p>
+
+<p>
+  <b>Email Private?:</b>
+ <%=h @profile.priv_flg  ? "TRUE" : "FALSE" %>
+</p>
+
+<p>
+  <b>Profile status:</b>
+   <%=h @profile.profile_status %>
+</p>
+
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

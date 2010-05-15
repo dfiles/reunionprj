@@ -130,13 +130,13 @@ a:link {
 }
 
 a:visited {
-    color: purple
+    color: #cc00cc
 }
 
 a:hover {
     text-decoration: none;
     color: red;
-    background-color: black;
+    background-color: blue;
 }
 
 a:active {
