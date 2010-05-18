@@ -1,4 +1,4 @@
-<h1>New profile</h1>
+<h1>New Classmate Profile</h1>
 
 <% form_for(@profile) do |f| %>
   <%= f.error_messages %>
@@ -69,7 +69,7 @@
   </p>
  <p>
    <b>Mail Status</b><br />
-    <%= f.select(:mail_status, options_for_select(["Mail","Email","Both"]), {:include_blank => true}) %>
+    <%= f.select(:mail_status, options_for_select(['Mail','Email','Both']), {:include_blank => true}) %>
   </p>
   <p>
     <b>Private?</b><br />
@@ -77,7 +77,7 @@
   </p>
   <p>
    <b>Profile Status</b><br />
-    <%= f.select(:profile_status, options_for_select(["Contact","Missing","Deceased","Active"]),{:include_blank => true) %>
+    <%= f.select(:profile_status, options_for_select(['Contact','Missing','Deceased']),{:include_blank => true) %>
   </p>
   <p>
     <%= f.submit 'Create' %>
