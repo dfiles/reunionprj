@@ -69,7 +69,7 @@
   </p>
   <p>
    <b>Mail Status</b><br />
-    <%= f.select(:mail_status, options_for_select(["Mail","Email","Both"], @profile.mail_status)) %>
+    <%= f.select(:mail_status, options_for_select(["Mail","Email","Both"], @profile.mail_status.to_s)) %>
   </p>
   <p>
     <b>Email Private?</b><br />
@@ -77,7 +77,7 @@
   </p>
   <p>
    <b>Profile Status</b><br />
-    <%= f.select(:profile_status, options_for_select(["Contact","Missing","Deceased","Active"], @profile.profile_status))%>
+    <%= f.select(:profile_status, options_for_select(["Contact","Missing","Deceased","Active"], @profile.profile_status.to_s))%>
   </p>
   <p>
     <%= f.submit 'Update' %>
