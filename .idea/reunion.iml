@@ -28,6 +28,12 @@
       </requirement>
       <source from="config/database.yml" />
     </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="will_paginate" version="2.3.11" bound="LATEST_IN_BRANCH" url="http://gemcutter.org" git="false" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -39,6 +45,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.3.5, /Library/Ruby/Gems/1.8/gems/rails-2.3.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.5, /Library/Ruby/Gems/1.8/gems/sqlite3-ruby-1.2.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mysql (v2.8.1, /Library/Ruby/Gems/1.8/gems/mysql-2.8.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] will_paginate (v2.3.12, /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12)" level="application" />
   </component>
 </module>
 
