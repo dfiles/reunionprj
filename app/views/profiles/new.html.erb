@@ -67,17 +67,17 @@
     <%= f.label :spouse_name %><br />
     <%= f.text_field :spouse_name %>
   </p>
-  <p>
-    <%= f.label :mail_status %><br />
-    <%= f.text_field :mail_status %>
+ <p>
+   <b>Mail Status</b><br />
+    <%= f.select(:mail_status, options_for_select(["Mail","Email","Both"])) %>
   </p>
   <p>
-    <%= f.label :priv_flg %><br />
+    <b>Private?</b><br />
     <%= f.check_box :priv_flg %>
   </p>
   <p>
-    <%= f.label :profile_status %><br />
-    <%= f.text_field :profile_status %>
+   <b>Profile Status</b><br />
+    <%= f.select(:profile_status, options_for_select(["Contact","Missing","Deceased","Active"])) %>
   </p>
   <p>
     <%= f.submit 'Create' %>
