@@ -1,4 +1,7 @@
 class Profile < ActiveRecord::Base
-  cattr_reader :per_page
-  @@per_page = 25
+ def self.search(search, page)
+  paginate :per_page => 25, :page => page,
+           :conditions => ['last_name like ?', "%#{search}%"],
+           :order => 'last_name'
+ end
 end

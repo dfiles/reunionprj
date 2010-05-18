@@ -1,10 +1,17 @@
-<h1>Listing profiles</h1>
+<h1>Listing of Classmates</h1>
+
+<% form_tag request.path, :method => 'get' do %>
+    <p>
+     <%= text_field_tag :search, params[:search], :maxlength => 25, :size => 30 %>
+     <%= submit_tag "Search", :last_name => nil %>
+    </p>
+<% end %>
 
 <table>
   <tr>
     <th>* </th>
     <th>CHS Name</th>
-    <th>Current name</th>
+    <th>Current Last Name</th>
     <th>Email</th>
     <th>Private ?</th>
     <th>Profile status</th>
@@ -14,7 +21,7 @@
   <tr>
     <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
     <td><%=h profile.first_name + " " + profile.last_name%></td>
-    <td><%=h profile.current_f_name + " " + profile.current_l_name%></td>
+    <td><%=h profile.current_l_name%></td>
     <td><%=h profile.email %></td>
     <td><%=h profile.priv_flg %></td>
     <td><%=h profile.profile_status %></td>

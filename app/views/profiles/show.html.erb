@@ -1,17 +1,9 @@
 <p>
   <b>First name:</b>
-  <%=h @profile.first_name %>
+  <%=h @profile.first_name + " " + @profile.last_name%>
 </p>
 <p>
-  <b>Last name:</b>
-  <%=h @profile.last_name %>
-</p>
-<p>
-  <b>Current First Name:</b>
-  <%=h @profile.current_f_name %>
-</p>
-<p>
-  <b>Current l name:</b>
+  <b>Current Last name:</b>
   <%=h @profile.current_l_name %>
 </p>
 <p>
@@ -29,15 +21,10 @@
 </p>
 
 <p>
-  <b>Address1:</b>
-  <%=h @profile.address1 %>
+  <b>Address:</b>
+     <%=h @profile.address1 %> |
+     <%=h @profile.address2 %>
 </p>
-
-<p>
-  <b>Address2:</b>
-  <%=h @profile.address2 %>
-</p>
-
 <p>
   <b>City:</b>
   <%=h @profile.city %>

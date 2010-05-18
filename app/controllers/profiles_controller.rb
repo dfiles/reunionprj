@@ -6,13 +6,9 @@ class ProfilesController < ApplicationController
 
   # GET /profiles
   # GET /profiles.xml
+
   def index
-   # @profiles = Profile.all 
-    @profiles = Profile.paginate :page => params[:page], :order => 'last_name'
-   # respond_to do |format|
-   #   format.html # index.html.erb
-   #   format.xml  { render :xml => @profiles }
-   # end
+   @profiles = Profile.search(params[:search], params[:page])
   end
 
   # GET /profiles/1
