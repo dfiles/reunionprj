@@ -2,8 +2,11 @@ class ProfilesController < ApplicationController
   # Be sure to include AuthenticationSystem in Application Controller instead
   include AuthenticatedSystem
   before_filter :login_required
-#  before_filter :set_pagetitle
+  before_filter :set_pagetitle
 
+  def set_pagetitle
+    @pagetitle = "Profile Administration"
+  end
   # GET /profiles
   # GET /profiles.xml
 
