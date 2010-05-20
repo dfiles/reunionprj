@@ -1,0 +1,22 @@
+<h1>Missing#list</h1>
+<p>Find me in app/views/missing/list.html.erb</p>
+
+<h1>Listing of Missing Classmates</h1>
+
+<table>
+  <tr>
+    <th>CHS Name</th>
+    <th>Current Last Name</th>
+    <th>Profile status</th>
+  </tr>
+
+<% @profiles.each do |profile| %>
+  <tr>
+    <td><%=h profile.first_name + " " + profile.last_name%></td>
+    <td><%=h profile.current_l_name%></td>
+    <td><%=h profile.profile_status %></td>
+  </tr>
+  <% end %>
+</table>
+<br />
+

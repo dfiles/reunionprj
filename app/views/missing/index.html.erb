@@ -1,0 +1,27 @@
+<h2>Listing of Missing Classmates</h2>
+
+
+<p>
+  <b>Attention AWOL classmates!! We are trying to find you! </b>  <br />
+If anyone knows how to contact anyone listed here (if you know them or their brother for example) please get them the website link
+for the reunion or send their contact info to us via the <b>"Contact Us"</b> link.  We will only contact them about the reunion and
+will <b>not</b> share their info with anyone else.  Even if you know they are not planning to attend please let us know or encourage
+them to update their profile on the site.<br />
+
+Thanks.
+</p>
+
+<table>
+  <tr>
+    <th>CHS Name</th>
+    <th>Current Last Name</th>
+  </tr>
+
+<% @profiles.each do |profile| %>
+  <tr>
+    <td><%=h profile.first_name + " " + profile.last_name%></td>
+    <td><%=h profile.current_l_name%></td>
+  </tr>
+  <% end %>
+</table>
+<br />

@@ -1,7 +1,8 @@
 class ProfilesController < ApplicationController
   # Be sure to include AuthenticationSystem in Application Controller instead
-  include AuthenticatedSystem
-  before_filter :login_required
+  #include AuthenticatedSystem
+
+  before_filter :login_required  #, :except => [:list]
   before_filter :set_pagetitle
 
   def set_pagetitle
@@ -14,6 +15,12 @@ class ProfilesController < ApplicationController
    @profiles = Profile.search(params[:search], params[:page])
   end
 
+   def list
+   @profiles = Profile.find(:all, :conditions => {:profile_status => 'Missing'}, :order => 'last_name')
+   get_page_metadata
+   end
+
+  
   # GET /profiles/1
   # GET /profiles/1.xml
   def show

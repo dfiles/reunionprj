@@ -1,7 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+
   map.resources :entries, :collection => {:list => :get}
 
-  map.resources :profiles
+  map.resources :profiles, :collection => {:list => :get}
 
   map.resources :messages
 
@@ -14,6 +15,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :session
 
   map.resources :pages
+
+  map.resources :missing,  :collection => {:list => :get}
 
   map.logout  '/logout', :controller => 'sessions', :action => 'destroy'
   map.login   '/login', :controller => 'sessions', :action => 'new'

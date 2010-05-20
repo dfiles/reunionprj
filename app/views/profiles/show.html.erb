@@ -4,15 +4,15 @@
 </p>
 <p>
   <b>Current Last name:</b>
-  <%=h @profile.current_l_name %>
-</p>
-<p>
-  <b>Suffix:</b>
-  <%=h @profile.suffix %>
+  <%=h @profile.current_l_name %> <%=h @profile.name_suffix %>
 </p>
 <p>
   <b>Current prefix:</b>
   <%=h @profile.current_prefix %>
+</p>
+<p>
+  <b>Suffix:</b>
+  <%=h @profile.suffix %>
 </p>
 
 <p>
@@ -37,12 +37,7 @@
 
 <p>
   <b>Zip:</b>
-  <%=h @profile.zip %>
-</p>
-
-<p>
-  <b>Zip4:</b>
-  <%=h @profile.zip4 %>
+  <%=h @profile.zip  %>-<%=h @profile.zip4 %>
 </p>
 
 <p>
