@@ -152,7 +152,7 @@ a:active {
 	clear:both;
 	padding-top:3px;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-size:10px;
 	font-weight:normal;
 }
 
@@ -197,4 +197,61 @@ a:active {
 	background-color:#F5F5F5;
 	color:#D7D7D7;
 	cursor:default;
+}
+/*
+* Style: Tabelle rot-weiss
+* Author: Jens Mielke, 4wd media
+* Site: www.4wdmedia.de
+* Country Origin: Germany
+*/
+
+#itsthetable {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+a, a:visited {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+a:visited {
+	text-decoration: line-through ;
+}
+th, td {
+	vertical-align: top;
+	text-align: left;
+}
+table {
+	font-weight: normal;
+	color: black;
+}
+
+th {
+	font-weight: bold;
+	color: black;
+}
+table {
+	background-color: #cc0033;
+	padding: 2px;
+}
+table {
+	border-spacing: 0;
+	width: 890px;
+	background-color: #dedef1;
+}
+td, th {
+	padding: 2px;
+}
+tbody td, tbody th {
+	color: black ;
+}
+tbody th a {
+	color: black;
+}
+tbody tr:hover td, tbody tr:hover th, tbody tr:hover td a, tbody tr:hover th a {
+	color: #cc0033;
+	background-color: black;
+}
+tbody tr:hover td a:visited, tbody tr:hover th a:visited {
+	color: #cc0033;
 }

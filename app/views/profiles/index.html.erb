@@ -1,4 +1,4 @@
-<h1>Listing of Classmates</h1>
+<h2>Listing of Classmates</h2>
 
 <% form_tag request.path, :method => 'get' do %>
     <p>
@@ -29,10 +29,9 @@
     <td><%= link_to 'Destroy', profile, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
   <% end %>
-</table>
-<br />
-
-<%= link_to 'New profile', new_profile_path %>
-<div id="tnt_pagination">
-<%= will_paginate @profile %>
+ </table>
+<p>
+<%= link_to 'New profile', new_profile_path %> </p>
+<div id="tnt_pagination" style="text-align:Left">
+    <%= will_paginate @profile %>
 </div>
