@@ -1,7 +1,7 @@
 class MissingController < ApplicationController
  #  include AuthenticatedSystem
 
-    # before_filter :login_required, :except => [:list]
+    #before_filter :login_required, :except => [:list]
     before_filter :set_pagetitle
 
   def set_pagetitle
@@ -9,8 +9,10 @@ class MissingController < ApplicationController
   end
 
   def index
-    @profiles = Profile.find(:all, :conditions => {:profile_status => 'Missing'}, :order => 'last_name')
+    @profiles = Profile.missing_classmates
+   # @profiles = Profile.find(:all, :conditions => {:profile_status => 'Missing'}, :order => 'last_name')
    # @profiles = Profile.search(params[:search], params[:page])
+    @profilescnt = Profile.missing_classmates.count
   end
 
   def list

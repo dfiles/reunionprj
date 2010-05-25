@@ -4,7 +4,8 @@ class UsersController < ApplicationController
   
   before_filter :login_required
   before_filter :set_pagetitle
-
+  require_role "admin"
+  
   def set_pagetitle
     @pagetitle = 'User Administration'
   end

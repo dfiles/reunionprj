@@ -1,5 +1,7 @@
 class CategoriesController < ApplicationController
+
   before_filter :login_required
+  require_role "admin"
   # GET /categories
   # GET /categories.xml
   def index

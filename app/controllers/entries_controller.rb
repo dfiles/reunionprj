@@ -1,8 +1,9 @@
 class EntriesController < ApplicationController
   # GET /entries
   # GET /entries.xml
-  before_filter :login_required, :except => [:list]
+  # before_filter :login_required, :except => [:list]
   before_filter :set_pagetitle
+  before_filter require_role "admin", :except => [:list]
 
    def set_pagetitle
     @pagetitle = "Entry Administration"

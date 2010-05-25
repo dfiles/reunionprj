@@ -1,4 +1,4 @@
-<h2>Listing of Missing Classmates</h2>
+<h2>Missing Classmates</h2>
 
 
 <p>
@@ -6,7 +6,7 @@
 If anyone knows how to contact anyone listed here (if you know them or their brother for example) please get them the website link
 for the reunion or send their contact info to us via the <b>"Contact Us"</b> link.  We will only contact them about the reunion and
 will <b>not</b> share their info with anyone else.  Even if you know they are not planning to attend please let us know or encourage
-them to update their profile on the site.<br />
+them to update their profile on the site. We are only missing  <b><%=  @profilescnt %></b> out of over 700.<br />
 
 Thanks.
 </p>
@@ -16,6 +16,7 @@ Thanks.
     <th>CHS Name</th>
     <th>Current Last Name</th>
   </tr>
+
 
 <% @profiles.each do |profile| %>
   <tr>

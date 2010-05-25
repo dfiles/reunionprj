@@ -2,14 +2,20 @@ class ProfilesController < ApplicationController
   # Be sure to include AuthenticationSystem in Application Controller instead
   #include AuthenticatedSystem
 
-  before_filter :login_required  #, :except => [:list]
+  before_filter :login_required, :except => [:status]
   before_filter :set_pagetitle
+
 
   def set_pagetitle
     @pagetitle = "Profile Administration"
   end
   # GET /profiles
   # GET /profiles.xml
+
+  def status
+    @profiles = Profile.deceased_classmates
+    @profilescnt = Profile.deceased_classmates.count
+  end
 
   def index
    @profiles = Profile.search(params[:search], params[:page])

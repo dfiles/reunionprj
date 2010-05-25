@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
   before_filter :login_required
+  before_filter require_role "admin"
   before_filter :set_pagetitle
 
   # GET /pages

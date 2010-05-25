@@ -2,7 +2,14 @@
   <div id='subnav'>
     <ul>
       <% for page in @subpages %>
-        <li><%= link_to page.navlabel, view_page_path(page.name) %></li>
+
+        <li>
+          <% if page.redirect? %>
+               <%= link_to page.navlabel, :action => page.action_name, :controller => page.controller_name, :name => page.name %>
+          <% else %>
+              <%= link_to page.navlabel, view_page_path(page.name) %>
+          <% end %>
+         </li>
       <% end %>
   </div>
 

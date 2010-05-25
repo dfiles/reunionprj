@@ -2,7 +2,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :entries, :collection => {:list => :get}
 
-  map.resources :profiles, :collection => {:list => :get}
+  map.resources :profiles, :collection => {:list => :get, :status => :get}
 
   map.resources :messages
 
