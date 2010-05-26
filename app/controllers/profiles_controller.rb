@@ -15,6 +15,7 @@ class ProfilesController < ApplicationController
   def status
     @profiles = Profile.deceased_classmates
     @profilescnt = Profile.deceased_classmates.count
+    @pagetitle = "In Memoriam"
   end
 
   def index

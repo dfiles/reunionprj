@@ -61,7 +61,7 @@
   </p>
   <p>
     <%= f.label :marital_status %><br />
-    <%= f.text_field :marital_status %>
+    <%= f.select(:marital_status,['Married','Single','Widowed','Divorced','In Relationship'], {:selected=> @profile.marital_status})%>
   </p>
   <p>
     <%= f.label :spouse_name %><br />
@@ -74,6 +74,10 @@
   <p>
     <b>Private?</b><br />
     <%= f.check_box :priv_flg %>
+  </p>
+  <p>
+    <b>On Map?</b><br>
+     <%= f.check_box :on_map %>
   </p>
   <p>
    <b>Profile Status</b><br />

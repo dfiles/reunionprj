@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100523054056) do
+ActiveRecord::Schema.define(:version => 20100526160529) do
 
   create_table "categories", :force => true do |t|
     t.string   "title"
@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(:version => 20100523054056) do
     t.string   "profile_status"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "on_map"
   end
 
   create_table "roles", :force => true do |t|
